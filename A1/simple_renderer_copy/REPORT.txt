@@ -1,0 +1,9 @@
+QUESTION 1:
+    I made two changes for the same, both of these combined did reduce the work on the system and made it more precise and accurate
+    1. The first being the simple change from float to double, which reduced floating point error by a lot and it helped to increase the 
+    radius till where the problem won't arise. This isn't a complete fix but a temporary one. This helped increase the radius.
+    2. The second change that i did was to bring the origin to the camera. Therefore changing the to, from vectors and changing the vertices according to the new origin
+
+
+QUESTION 2:
+    I did make all the necessary changes to the code as asked. There was no mention of writing a report. 

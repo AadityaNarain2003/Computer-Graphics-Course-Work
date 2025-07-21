@@ -1,0 +1,73 @@
+QUESTION 1:
+    I made two changes for the same, both of these combined did reduce the work on the system and made it more precise and accurate
+    1. The first being the simple change from float to double, which reduced floating point error by a lot and it helped to increase the 
+    radius till where the problem won't arise. This isn't a complete fix but a temporary one. This helped increase the radius.
+    2. The second change that i did was to bring the origin to the camera. Therefore changing the to, from vectors and changing the vertices according to the new origin
+
+
+QUESTION 2:
+    incorrect.png- 
+    
+    	Render Time: 696.807983 ms
+	Saved PNG: incorrect.png
+    
+    CORNELLBOX-(LOW)  ALL DATA IS SAVED AS scene
+
+    	Render Time: 41681.953125 ms
+    	Saved PNG: scene0.png
+
+    	Render Time: 3869.820068 ms
+    	Saved PNG: scene1.png
+
+    	Render Time: 3856.760010 ms
+    	Saved PNG: scene2.png
+    
+    	Render Time: 664.523010 ms
+    	Saved PNG: scene3.png
+    
+    
+    CORNELLBOX-(HI)  ALL DATA IS SAVED AS scene
+    
+    	Render Time: 177072.343750 ms
+	Saved PNG: scene0.png
+    
+    	Render Time: 15241.088867 ms
+	Saved PNG: scene1.png
+    	
+    	Render Time: 14972.577148 ms
+	Saved PNG: scene2.png
+    
+    	Render Time: 1471.738037 ms
+	Saved PNG: scene3.png
+	
+    DONUT-
+    
+    	Render Time: 56863.449219 ms
+	Saved PNG: scene0.png
+    
+    	Render Time: 5472.499023 ms
+	Saved PNG: scene1.png
+	
+	Render Time: 5576.916992 ms
+	Saved PNG: scene2.png
+
+	Render Time: 617.611023 ms
+	Saved PNG: scene3.png
+	
+   TABLETOP-
+  
+  	Render Time: 50933.394531 ms
+	Saved PNG: scene0.png
+
+	Render Time: 4085.177979 ms
+	Saved PNG: scene1.png
+
+	Render Time: 4157.871094 ms
+	Saved PNG: scene2.png
+
+	Render Time: 849.114990 ms
+	Saved PNG: scene3.png
+	
+	
+Author-Aaditya Vardhan Narain 2022111038
+

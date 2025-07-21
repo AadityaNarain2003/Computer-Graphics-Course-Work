@@ -1,0 +1,24 @@
+Render Time: 927.554993 ms
+Saved PNG: donut00.png
+
+Render Time: 983.620972 ms
+Saved PNG: donut01.png
+
+Render Time: 441.221008 ms
+Saved PNG: test00.png
+
+Render Time: 461.144989 ms
+Saved PNG: test01.png
+
+Render Time: 458.316010 ms
+Saved PNG: test10.png
+
+Render Time: 472.739990 ms
+Saved PNG: test11.png
+
+Render Time: 809.596985 ms
+Saved PNG: test20.png
+
+Render Time: 850.713013 ms
+Saved PNG: test21.png
+

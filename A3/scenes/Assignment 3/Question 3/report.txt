@@ -1,0 +1,138 @@
+BIG:
+
+UNIFORM:
+1.Render Time: 2030 milliseconds
+Saved PNG: uniform_big10.png
+
+2.Render Time: 19514 milliseconds
+Saved PNG: uniform_big100.png
+
+3.Render Time: 135706 milliseconds
+Saved PNG: uniform_big1000.png
+
+COSINE:
+4.Render Time: 2187 milliseconds
+Saved PNG: cosine_big10.png
+
+5.Render Time: 19175 milliseconds
+Saved PNG: cosine_big100.png
+
+6.Render Time: 158997 milliseconds
+Saved PNG: cosine_big1000.png
+
+LIGHT:
+7.Render Time: 4815 milliseconds
+Saved PNG: light_big10.png
+
+8.Render Time: 54536 milliseconds
+Saved PNG: light_big100.png
+
+9.Render Time: 482879 milliseconds
+Saved PNG: light_big1000.png
+
+MED:
+UNIFROM:
+1.Render Time: 1402 milliseconds
+Saved PNG: uniform_med_10.png
+
+2.Render Time: 14377 milliseconds
+Saved PNG: uniform_med_100.png
+
+3.Render Time: 101278 milliseconds
+Saved PNG: uniform_med_1000.png
+
+
+COSINE:
+4.Render Time: 2123 milliseconds
+Saved PNG: cosine_med10.png
+
+5.Render Time: 18907 milliseconds
+Saved PNG: cosine_med100.png
+
+6.Render Time: 132103 milliseconds
+Saved PNG: cosine_med1000.png
+
+LIGHT:
+
+7.Render Time: 5505 milliseconds
+Saved PNG: light_med_10.png
+
+8.Render Time: 54058 milliseconds
+Saved PNG: light_med_100.png
+
+9.Render Time: 488309 milliseconds
+Saved PNG: light_med_1000.png
+
+SMALL:
+UNIFORM:
+1.Render Time: 1567 milliseconds
+Saved PNG: uniform_small10.png
+
+2.Render Time: 15317 milliseconds
+Saved PNG: uniform_small100.png
+
+3.Render Time: 90691 milliseconds
+Saved PNG: uniform_small1000.png
+
+COSINE:
+4.Render Time: 2130 milliseconds
+Saved PNG: cosine_small10.png
+
+5.Render Time: 18878 milliseconds
+Saved PNG: cosine_small100.png
+
+6.Render Time: 128059 milliseconds
+Saved PNG: cosine_small1000.png
+
+LIGHT:
+
+7.Render Time: 5537 milliseconds
+Saved PNG: light_small10.png
+
+8.Render Time: 48837 milliseconds
+Saved PNG: light_small100.png
+
+9.Render Time: 464389 milliseconds
+Saved PNG: light_small1000.png
+
+MANY:
+UNIFORM:
+1.Render Time: 2685 milliseconds
+Saved PNG: uniform_many10.png
+
+2.Render Time: 23614 milliseconds
+Saved PNG: uniform_many100.png
+
+3.Render Time: 180636 milliseconds
+Saved PNG: uniform_many1000.png
+
+COSINE:
+4.Render Time: 2472 milliseconds
+Saved PNG: cosine_many10.png
+
+5.Render Time: 23060 milliseconds
+Saved PNG: cosine_many100.png
+
+6.Render Time: 196471 milliseconds
+Saved PNG: cosine_many1000.png
+
+LIGHT:
+7.Render Time: 5448 milliseconds
+Saved PNG: light_many10.png
+
+8.Render Time: 54739 milliseconds
+Saved PNG: light_many100.png
+
+9.Render Time: 452234 milliseconds
+Saved PNG: light_many1000.png
+
+
+ANSWERS:
+
+Q1. Why can’t we render point and directional lights with uniform hemisphere sampling or cosine
+weighted sampling?
+Ans: We can't render point and directional lights with any hemisphere sampling because the point is a very small specific point in the 3D space and same goes for the direction as it is very specific, therefore it becomes a 0 probablity event to hit that same position or direction. Therefore it doesnt work.
+
+Q2.Why does the noise increase for the same number of samples in the case of uniform hemisphere
+and cosine weighted sampling as the size of the area light decreases?
+Ans: As during a hemisphere sampling the sampling is done for the hemisphere and does not consider light source. So as area decreases, so does the probablity of hitting the light, hence more noise.
